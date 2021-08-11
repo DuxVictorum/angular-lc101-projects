@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
    styleUrls: ['./chores.component.css']
 })
 export class ChoresComponent implements OnInit {
-   chores = ['Empty dishwasher', 'Complete LaunchCode prep work', 'Buy groceries'];
+   choreList = [['Empty dishwasher', 'Complete LaunchCode prep work'], ['Buy groceries', 'Change sheets'], ['Eat more pizza', 'Finish book', 'Rinse shirts']];
    todoTitles = ["Yesterday's Chores", "Today's Chores", "Tomorrow's Chores"];
 
    constructor() { }
@@ -15,3 +15,5 @@ export class ChoresComponent implements OnInit {
    }
 
 }
+
+// I want to only use one array in choreList each time I loop through
