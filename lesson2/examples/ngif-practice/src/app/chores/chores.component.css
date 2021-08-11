@@ -6,6 +6,11 @@
     color: #3c79b8;
 }
 
+.passion {
+    color: rgb(87, 133, 45);
+    padding-left: 40px;
+}
+
 h3 {
     text-align: center;
 }
